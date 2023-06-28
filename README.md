@@ -55,8 +55,10 @@ they should be the same.
     ```bash
     terraform fmt
     ```
-    Checks the syntax of the terraform configuration files.
+    Check the syntax of the terraform configuration files
+    ```bash
     terraform validate
+    ```
     Installs the terraform providers under your <your-repo>/terraform 
     directory
     ```bash
