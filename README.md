@@ -47,15 +47,23 @@ they should be the same.
 6. Run the commands below to create the module's infrastructure so you can use
    it in your project:
 
+    ```bash
     cd <your-repo>/terraform
-    # All the definition terraform files have syntax linting however you can run
-    # this command to make sure the files look readable
+    ```
+    All the definition terraform files have syntax linting however you can run
+    this command to make sure the files look readable
+    ```bash
     terraform fmt
-    # Checks the syntax of the terraform configuration files.
+    ```
+    Checks the syntax of the terraform configuration files.
     terraform validate
-    # Installs the terraform providers under your <your-repo>/terraform 
-    # directory
+    Installs the terraform providers under your <your-repo>/terraform 
+    directory
+    ```bash
     terraform init
-    # Creates the infrastructure defined in your module configuration file and
-    # the .tfstate file will be created in the file backend that you chose
+    ```
+    Creates the infrastructure defined in your module configuration file and
+    the .tfstate file will be created in the file backend that you chose
+    ```bash
     terraform apply
+    ```
